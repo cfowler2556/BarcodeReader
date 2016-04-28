@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EasyShopper</string>
+    <string name="title_activity_Returned">Returned</string>
+    <string name="scanBtn">Scan or Search</string>
+    <string name="compareBtn">Compare Prices</string>
+    <string name="homeInfoReceivedLabel">Item info received</string>
+    <string name="manualBarcodeEntryHomeTextBox">barcode / upc entry</string>
+    <string name="viewCartHomeBtn">View Cart</string>
+    <string name="cartHomeBtn">Home</string>
+    <string name="cartClearCartBtn">Clear Cart</string>
+    <string name="wallmartRadioBtn">Wallmart</string>
+    <string name="shopkoRadioBtn">Shopko</string>
+    <string name="superSaverRadioBtn">Super Saver</string>
+    <string name="hyveeRadioBtn">Hy-Vee</string>
+    <string name="addToCartBtn">Add to Cart</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="selectWallmartCheckBox">Wallmart</string>
+    <string name="selectShopkoCheckBox">Shopko</string>
+    <string name="selectSuperSaverCheckBox">Super Saver</string>
+    <string name="selectHyVeeCheckBox">Hy-Vee</string>
+    <string name="selectCheckStoresBtn">Check Stores</string>
+    <string name="cartNamedCartLabel">Your Cart</string>
+    <string name="selectLocalStoresLabel">Select local stores to compare prices with</string>
+</resources>

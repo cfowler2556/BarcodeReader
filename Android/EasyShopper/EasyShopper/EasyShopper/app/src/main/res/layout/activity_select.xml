@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.projects.chrisfowler.easyshopper.Select">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/selectLocalStoresLabel"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectWallmartCheckBox"
+        android:id="@+id/wallmartCheckBox"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="75dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectShopkoCheckBox"
+        android:id="@+id/shopkoCheckBox"
+        android:layout_below="@+id/wallmartCheckBox"
+        android:layout_alignLeft="@+id/wallmartCheckBox"
+        android:layout_alignStart="@+id/wallmartCheckBox"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectSuperSaverCheckBox"
+        android:id="@+id/superSaverCheckBox"
+        android:layout_below="@+id/shopkoCheckBox"
+        android:layout_alignLeft="@+id/shopkoCheckBox"
+        android:layout_alignStart="@+id/shopkoCheckBox"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectHyVeeCheckBox"
+        android:id="@+id/hyVeeCheckBox"
+        android:layout_below="@+id/superSaverCheckBox"
+        android:layout_alignLeft="@+id/superSaverCheckBox"
+        android:layout_alignStart="@+id/superSaverCheckBox"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectCheckStoresBtn"
+        android:id="@+id/checkStoresButton"
+        android:layout_below="@+id/hyVeeCheckBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+</RelativeLayout>
